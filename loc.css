@@ -322,6 +322,14 @@ footer {
   color:#e1f5fe;
   font-family: "Courier New", Courier, monospace;
   font-size: 22px;
+  position: relative;
+}
+footer::after {
+  content: '© 2025';
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 footer .container {
   position: relative;
@@ -335,7 +343,7 @@ footer .container {
 footer .container::after {
   content: "Design: R Alshujaa";
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
