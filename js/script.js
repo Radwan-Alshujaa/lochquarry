@@ -8,4 +8,4 @@ const logo =document.getElementById('logo');
 logo.addEventListener('click',function() {
     window.location=("index.html");
 });
-logo.addEventListener('mouseenter',function(){})
+

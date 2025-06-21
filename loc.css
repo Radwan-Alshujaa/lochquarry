@@ -95,6 +95,7 @@ ul {
   z-index: 1;
   color: #eee4d7;
   margin-bottom: 10px;
+  font-size: 25px;
 }
 
 .heading h2 {
@@ -293,10 +294,9 @@ header .nav-links a {
 }
 .gallery img {
   width: 300px;
-  height:300px;
+  /* height:300px; */
   cursor: pointer;
   border-radius: 10px;
-  box-shadow: 0.3s ease;
   transition: .3s;
 }
 
@@ -314,6 +314,7 @@ header .nav-links a {
   font-size: 30px;
   letter-spacing: 0.1em;
 }
+/* end gallery */
 
 /* start footer */
 footer {
@@ -385,9 +386,12 @@ footer .fast a:hover {
 }
 .act .box img {
   border-radius: 6px;
-  width: 250px;
-  height: 250px;
+  max-width: 320px;
+  /* height: 200px; */
   transition: 0.2s;
+}
+.act.about .box img{
+  width: 200px;
 }
 .act .box img:hover {
   transform: scale(1.05);
